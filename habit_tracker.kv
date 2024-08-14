@@ -1,0 +1,12 @@
+<Habit>:
+    Label:
+        text: root.habit_label.text
+
+<HabitTracker>:
+    orientation: 'vertical'
+    BoxLayout:
+        id: habit_list
+        orientation: 'vertical'
+    Button:
+        text: 'Add Habit'
+        on_press: root.show_add_habit_popup()
